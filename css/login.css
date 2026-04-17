@@ -11,8 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--secondary-color);
-  font-family: sans-serif;
+  background: white;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -26,6 +25,9 @@ body {
   color: white;
   font-size: 20px;
   font-weight: 600;
+}
+.header a img {
+  width: 102px;
 }
 
  
@@ -80,6 +82,9 @@ body {
 .submit-btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-p {
+p i {
+  color: white;
+}
+p  i a{
   color: white;
 }
